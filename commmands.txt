@@ -1,0 +1,6 @@
+docker build --tag python-django .
+docker run --publish 8000:8000 python-django
+docker run python-django
+
+
+How To Dockerize A Django Application (Beginners Guide)
